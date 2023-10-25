@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34205.153
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarosuelView", "CarosuelView.csproj", "{A84E865F-D983-4B9F-9D21-FFA46692A98E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A84E865F-D983-4B9F-9D21-FFA46692A98E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84E865F-D983-4B9F-9D21-FFA46692A98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84E865F-D983-4B9F-9D21-FFA46692A98E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A84E865F-D983-4B9F-9D21-FFA46692A98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84E865F-D983-4B9F-9D21-FFA46692A98E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A84E865F-D983-4B9F-9D21-FFA46692A98E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AB1824C-EDE3-4EB2-AE27-D7656BD4EDF1}
+	EndGlobalSection
+EndGlobal
