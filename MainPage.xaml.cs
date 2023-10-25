@@ -6,7 +6,7 @@ namespace CarosuelView
 {
     public partial class MainPage : ContentPage
     {
-        private ObservableCollection<TabItem> Items = new ObservableCollection<TabItem>();
+        private ObservableCollection<Item> Items = new ObservableCollection<Item>();
 
         private CarouselView carouselView;
 
@@ -14,7 +14,7 @@ namespace CarosuelView
         {
             InitializeComponent();
 
-            Items.Add(new TabItem()
+            Items.Add(new Item()
             {
                 Content = new Label()
                 {
@@ -26,7 +26,7 @@ namespace CarosuelView
                     HeightRequest = 300
                 }
             });
-            Items.Add(new TabItem()
+            Items.Add(new Item()
             {
                 Content = new Label()
                 {
@@ -38,7 +38,7 @@ namespace CarosuelView
                     HeightRequest = 300
                 }
             });
-            Items.Add(new TabItem()
+            Items.Add(new Item()
             {
                 Content = new Label()
                 {
@@ -51,7 +51,7 @@ namespace CarosuelView
                 }
             });
 
-            Items.Add(new TabItem()
+            Items.Add(new Item()
             {
                 Content = new Label()
                 {
@@ -85,9 +85,8 @@ namespace CarosuelView
         }
     }
 
-    public class TabItem()
+    public class Item()
     {
         public View Content { get; set; }
-
     }
 }
